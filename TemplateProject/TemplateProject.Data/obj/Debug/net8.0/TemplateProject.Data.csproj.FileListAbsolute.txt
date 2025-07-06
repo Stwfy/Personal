@@ -1,0 +1,12 @@
+C:\Lavori\Personal\TemplateProject\TemplateProject.Data\bin\Debug\net8.0\TemplateProject.Data.deps.json
+C:\Lavori\Personal\TemplateProject\TemplateProject.Data\bin\Debug\net8.0\TemplateProject.Data.dll
+C:\Lavori\Personal\TemplateProject\TemplateProject.Data\bin\Debug\net8.0\TemplateProject.Data.pdb
+C:\Lavori\Personal\TemplateProject\TemplateProject.Data\obj\Debug\net8.0\TemplateProject.Data.csproj.AssemblyReference.cache
+C:\Lavori\Personal\TemplateProject\TemplateProject.Data\obj\Debug\net8.0\TemplateProject.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Lavori\Personal\TemplateProject\TemplateProject.Data\obj\Debug\net8.0\TemplateProject.Data.AssemblyInfoInputs.cache
+C:\Lavori\Personal\TemplateProject\TemplateProject.Data\obj\Debug\net8.0\TemplateProject.Data.AssemblyInfo.cs
+C:\Lavori\Personal\TemplateProject\TemplateProject.Data\obj\Debug\net8.0\TemplateProject.Data.csproj.CoreCompileInputs.cache
+C:\Lavori\Personal\TemplateProject\TemplateProject.Data\obj\Debug\net8.0\TemplateProject.Data.dll
+C:\Lavori\Personal\TemplateProject\TemplateProject.Data\obj\Debug\net8.0\refint\TemplateProject.Data.dll
+C:\Lavori\Personal\TemplateProject\TemplateProject.Data\obj\Debug\net8.0\TemplateProject.Data.pdb
+C:\Lavori\Personal\TemplateProject\TemplateProject.Data\obj\Debug\net8.0\ref\TemplateProject.Data.dll

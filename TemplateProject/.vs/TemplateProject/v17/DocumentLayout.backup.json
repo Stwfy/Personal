@@ -1,0 +1,201 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Lavori\\Personal\\TemplateProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B212D89D-3CCF-4EC8-9665-207EDC370DAE}|TemplateProject.FrontEnd\\TemplateProject.FrontEnd.csproj|c:\\lavori\\personal\\templateproject\\templateproject.frontend\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B212D89D-3CCF-4EC8-9665-207EDC370DAE}|TemplateProject.FrontEnd\\TemplateProject.FrontEnd.csproj|solutionrelative:templateproject.frontend\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B212D89D-3CCF-4EC8-9665-207EDC370DAE}|TemplateProject.FrontEnd\\TemplateProject.FrontEnd.csproj|c:\\lavori\\personal\\templateproject\\templateproject.frontend\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B212D89D-3CCF-4EC8-9665-207EDC370DAE}|TemplateProject.FrontEnd\\TemplateProject.FrontEnd.csproj|solutionrelative:templateproject.frontend\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C077CF67-CDF4-41A7-ACB4-F203DC8CCABC}|TemplateProject\\TemplateProject.csproj|c:\\lavori\\personal\\templateproject\\templateproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C077CF67-CDF4-41A7-ACB4-F203DC8CCABC}|TemplateProject\\TemplateProject.csproj|solutionrelative:templateproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C077CF67-CDF4-41A7-ACB4-F203DC8CCABC}|TemplateProject\\TemplateProject.API.csproj|c:\\lavori\\personal\\templateproject\\templateproject\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C077CF67-CDF4-41A7-ACB4-F203DC8CCABC}|TemplateProject\\TemplateProject.API.csproj|solutionrelative:templateproject\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C077CF67-CDF4-41A7-ACB4-F203DC8CCABC}|TemplateProject\\TemplateProject.API.csproj|c:\\lavori\\personal\\templateproject\\templateproject\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C077CF67-CDF4-41A7-ACB4-F203DC8CCABC}|TemplateProject\\TemplateProject.API.csproj|solutionrelative:templateproject\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D45ED004-A58F-4A01-B4B1-3BFD88A49996}|TemplateProject.Data\\TemplateProject.Data.csproj|c:\\lavori\\personal\\templateproject\\templateproject.data\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D45ED004-A58F-4A01-B4B1-3BFD88A49996}|TemplateProject.Data\\TemplateProject.Data.csproj|solutionrelative:templateproject.data\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D45ED004-A58F-4A01-B4B1-3BFD88A49996}|TemplateProject.Data\\TemplateProject.Data.csproj|c:\\lavori\\personal\\templateproject\\templateproject.data\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D45ED004-A58F-4A01-B4B1-3BFD88A49996}|TemplateProject.Data\\TemplateProject.Data.csproj|solutionrelative:templateproject.data\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C077CF67-CDF4-41A7-ACB4-F203DC8CCABC}|TemplateProject\\TemplateProject.csproj|c:\\lavori\\personal\\templateproject\\templateproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C077CF67-CDF4-41A7-ACB4-F203DC8CCABC}|TemplateProject\\TemplateProject.csproj|solutionrelative:templateproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C077CF67-CDF4-41A7-ACB4-F203DC8CCABC}|TemplateProject\\TemplateProject.API.csproj|c:\\lavori\\personal\\templateproject\\templateproject\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C077CF67-CDF4-41A7-ACB4-F203DC8CCABC}|TemplateProject\\TemplateProject.API.csproj|solutionrelative:templateproject\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Lavori\\Personal\\TemplateProject\\TemplateProject.FrontEnd\\Pages\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "TemplateProject.FrontEnd\\Pages\\Login.cshtml.cs",
+              "ToolTip": "C:\\Lavori\\Personal\\TemplateProject\\TemplateProject.FrontEnd\\Pages\\Login.cshtml.cs",
+              "RelativeToolTip": "TemplateProject.FrontEnd\\Pages\\Login.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T14:41:19.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Lavori\\Personal\\TemplateProject\\TemplateProject.FrontEnd\\Pages\\Login.cshtml",
+              "RelativeDocumentMoniker": "TemplateProject.FrontEnd\\Pages\\Login.cshtml",
+              "ToolTip": "C:\\Lavori\\Personal\\TemplateProject\\TemplateProject.FrontEnd\\Pages\\Login.cshtml",
+              "RelativeToolTip": "TemplateProject.FrontEnd\\Pages\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T14:41:01.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Lavori\\Personal\\TemplateProject\\TemplateProject\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "TemplateProject\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Lavori\\Personal\\TemplateProject\\TemplateProject\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "TemplateProject\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAIwDQAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T13:24:43.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Lavori\\Personal\\TemplateProject\\TemplateProject.Data\\Models\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "TemplateProject.Data\\Models\\LoginRequest.cs",
+              "ToolTip": "C:\\Lavori\\Personal\\TemplateProject\\TemplateProject.Data\\Models\\LoginRequest.cs",
+              "RelativeToolTip": "TemplateProject.Data\\Models\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T13:22:31.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Lavori\\Personal\\TemplateProject\\TemplateProject\\Dto\\LoginDto.cs",
+              "RelativeDocumentMoniker": "TemplateProject\\Dto\\LoginDto.cs",
+              "ToolTip": "C:\\Lavori\\Personal\\TemplateProject\\TemplateProject\\Dto\\LoginDto.cs",
+              "RelativeToolTip": "TemplateProject\\Dto\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T13:16:45.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Lavori\\Personal\\TemplateProject\\TemplateProject.Data\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "TemplateProject.Data\\Models\\Users.cs",
+              "ToolTip": "C:\\Lavori\\Personal\\TemplateProject\\TemplateProject.Data\\Models\\Users.cs",
+              "RelativeToolTip": "TemplateProject.Data\\Models\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T13:13:39.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Lavori\\Personal\\TemplateProject\\TemplateProject\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "TemplateProject\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Lavori\\Personal\\TemplateProject\\TemplateProject\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "TemplateProject\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwDoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T12:53:09.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Lavori\\Personal\\TemplateProject\\TemplateProject\\Program.cs",
+              "RelativeDocumentMoniker": "TemplateProject\\Program.cs",
+              "ToolTip": "C:\\Lavori\\Personal\\TemplateProject\\TemplateProject\\Program.cs",
+              "RelativeToolTip": "TemplateProject\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T12:42:42.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Lavori\\Personal\\TemplateProject\\TemplateProject\\appsettings.json",
+              "RelativeDocumentMoniker": "TemplateProject\\appsettings.json",
+              "ToolTip": "C:\\Lavori\\Personal\\TemplateProject\\TemplateProject\\appsettings.json",
+              "RelativeToolTip": "TemplateProject\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-06T12:40:33.337Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

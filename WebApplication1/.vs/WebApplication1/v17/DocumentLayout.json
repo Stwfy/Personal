@@ -1,0 +1,150 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Lavori\\Personal\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{419EE0B5-5948-4472-893E-45807E880A54}|WebApplication1\\WebApplication1.csproj|c:\\lavori\\personal\\webapplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{419EE0B5-5948-4472-893E-45807E880A54}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{419EE0B5-5948-4472-893E-45807E880A54}|WebApplication1\\WebApplication1.csproj|c:\\lavori\\personal\\webapplication1\\webapplication1\\apikeysupport\\apikeymiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{419EE0B5-5948-4472-893E-45807E880A54}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\apikeysupport\\apikeymiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{419EE0B5-5948-4472-893E-45807E880A54}|WebApplication1\\WebApplication1.csproj|c:\\lavori\\personal\\webapplication1\\webapplication1\\controllers\\mappascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{419EE0B5-5948-4472-893E-45807E880A54}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\mappascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{419EE0B5-5948-4472-893E-45807E880A54}|WebApplication1\\WebApplication1.csproj|c:\\lavori\\personal\\webapplication1\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{419EE0B5-5948-4472-893E-45807E880A54}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{419EE0B5-5948-4472-893E-45807E880A54}|WebApplication1\\WebApplication1.csproj|c:\\lavori\\personal\\webapplication1\\webapplication1\\models\\autoveloxfinalcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{419EE0B5-5948-4472-893E-45807E880A54}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\autoveloxfinalcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{419EE0B5-5948-4472-893E-45807E880A54}|WebApplication1\\WebApplication1.csproj|c:\\lavori\\personal\\webapplication1\\webapplication1\\models\\mappa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{419EE0B5-5948-4472-893E-45807E880A54}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\mappa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Mappa.cs",
+              "DocumentMoniker": "C:\\Lavori\\Personal\\WebApplication1\\WebApplication1\\Models\\Mappa.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Mappa.cs",
+              "ToolTip": "C:\\Lavori\\Personal\\WebApplication1\\WebApplication1\\Models\\Mappa.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Mappa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T09:23:47.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApiKeyMiddleware.cs",
+              "DocumentMoniker": "C:\\Lavori\\Personal\\WebApplication1\\WebApplication1\\ApiKeySupport\\ApiKeyMiddleware.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\ApiKeySupport\\ApiKeyMiddleware.cs",
+              "ToolTip": "C:\\Lavori\\Personal\\WebApplication1\\WebApplication1\\ApiKeySupport\\ApiKeyMiddleware.cs",
+              "RelativeToolTip": "WebApplication1\\ApiKeySupport\\ApiKeyMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T14:34:49.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MappasController.cs",
+              "DocumentMoniker": "C:\\Lavori\\Personal\\WebApplication1\\WebApplication1\\Controllers\\MappasController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\MappasController.cs",
+              "ToolTip": "C:\\Lavori\\Personal\\WebApplication1\\WebApplication1\\Controllers\\MappasController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\MappasController.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAiwGwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T13:21:01.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AutoveloxFinalContext.cs",
+              "DocumentMoniker": "C:\\Lavori\\Personal\\WebApplication1\\WebApplication1\\Models\\AutoveloxFinalContext.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\AutoveloxFinalContext.cs",
+              "ToolTip": "C:\\Lavori\\Personal\\WebApplication1\\WebApplication1\\Models\\AutoveloxFinalContext.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\AutoveloxFinalContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBwAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T13:10:41.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Lavori\\Personal\\WebApplication1\\WebApplication1\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
+              "ToolTip": "C:\\Lavori\\Personal\\WebApplication1\\WebApplication1\\appsettings.json",
+              "RelativeToolTip": "WebApplication1\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-25T13:08:06.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Lavori\\Personal\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "C:\\Lavori\\Personal\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T13:07:55.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

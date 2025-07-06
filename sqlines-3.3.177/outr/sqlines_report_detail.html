@@ -1,0 +1,153 @@
+<style type="text/css">
+body { font-family: verdana; }
+h1 { font-family: trebuchet ms, verdana; font-size: 20px; color: #000000; border-bottom:1px solid grey; }
+h2 { font-family: trebuchet ms, verdana; font-size: 18px; color: #000000; border-bottom:1px solid grey; }
+p { font-size: 13px; }
+table { font-size: 13px; border: 1px solid; border-collapse:collapse; }
+.report_tab tr:hover td { background-color: #A4BBFE; }
+th { background: #FFFFFF; padding: 0px 10px 0px 10px; border: 1px solid grey; }
+td { padding: 0px 10px 0px 10px; border: 1px solid grey; }
+.td_warn { background:yellow; }
+.td_error { background:lightpink; }
+a:link { text-decoration: none; color: #0000A0;}
+a:visited { text-decoration: none; color: #0000A0;}
+a:active { text-decoration: none; color: #0000A0;}
+a:hover { text-decoration: none; color: #800517;}
+pre { white-space: pre-wrap; } 
+.token_kw { color:blue }
+.token_str { color:green }
+.token_num { color:brown }
+.token_dtype { color:maroon  }
+.token_symb { color:darkblue }
+.token_comment { color:grey }
+.token_func { color:blue }
+.token_udf { color:#8B0000 }
+.token_ok { background-color:#E0FFD2 }
+.token_error { background-color:#FFCCCB }
+.token_warn { background-color:#FFF380 }
+
+.tooltip { position: relative; display: inline-block; cursor: pointer; }
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color: #fff;
+  color: #555;
+  font-family: verdana;
+  font-size: 11px; 
+  border-style: ridge;
+  border-radius: 6px;
+  padding: 5px 5px;
+  position: absolute;
+  z-index: 1;
+  left: 100%;           /* tooltip is placed on the right without any padding */
+  white-space: normal;
+  top: 50%;
+  opacity: 0;
+  transition: opacity 0.3s;
+  width: max-content;
+  margin-left: -10px;  /* tooltip sligthly overlaps on the right so we can easily go to link */
+  user-select: none;
+}
+.tooltip:hover .tooltiptext { visibility: visible; opacity: 1; }
+
+</style>
+
+<!------------------------------->
+
+<h2>Top-Level Statements by Type</h2>
+
+<p>Standalone top-level SQL statements by type excluding nested statements that appear inside other statements 
+(CREATE TABLE or INSERT inside CREATE PROCEDURE i.e.):</p>
+<table class="report_tab"><tr><th></th><th>Statement Type</th><th>Count</th><th>Conversion</th><th>Complexity</th><th title="Non-Empty Lines">Lines</th><th colspan="2">Need Conversion</th><th colspan="2">Automated</th><th colspan="2">Manual</th></tr><tr><td>1</td><td><a href="sqlines_report_snippets.html#top_statements_by_type_table_DML">DML</a></td><td align="right">1524</td><td><span class="td_warn1">Check: 1524</span> <span style="color:red"><strong>!</strong></span><a href="sqlines_report_snippets.html#top_statements_by_type_table_DML_issues" title="1 distinct issue, 1526 occurrences"> (1/1526)</a></td><td>Low: 1524</td><td align="right">1524</td><td>1524</td><td>100.0%</td><td>0</td><td>0.0%</td><td>1524</td><td>100.0%</td></tr>
+<tr><td>2</td><td><a href="sqlines_report_snippets.html#top_statements_by_type_table_Other_DDL">Other DDL</a></td><td align="right">2</td><td>Ok: 2 <span style="color:green"><strong>&#x2713;</strong></span></td><td>Undefined: 2</td><td align="right">3</td><td>3</td><td>100.0%</td><td>3</td><td>100.0%</td><td>0</td><td>0.0%</td></tr>
+<tr><td>3</td><td><a href="sqlines_report_snippets.html#top_statements_by_type_table_System_and_Control">System and Control</a></td><td align="right">1</td><td><span class="td_warn1">Check: 1</span> <span style="color:red"><strong>!</strong></span></td><td>Undefined: 1</td><td align="right">1</td><td>1</td><td>100.0%</td><td>0</td><td>0.0%</td><td>1</td><td>100.0%</td></tr>
+<tr><td>4</td><td><a href="sqlines_report_snippets.html#top_statements_by_type_table_Table">Table</a></td><td align="right">1</td><td><span class="td_warn1">Check: 1</span> <span style="color:red"><strong>!</strong></span></td><td>Medium: 1</td><td align="right">11</td><td>11</td><td>100.0%</td><td>10</td><td>90.9%</td><td>1</td><td>9.1%</td></tr>
+</table><p><b>Total:</b> 4 distinct statement types, 1528 occurrences.</p>
+
+
+<!------------------------------->
+
+<h2>All SQL Statements</h2>
+
+<p>Note that some statements can be nested within others (CREATE TABLE or INSERT inside CREATE PROCEDURE i.e. so issues, lines and other metrics cannot be summed): </p>
+<table class="report_tab"><tr><th></th><th>Statement</th><th>Description</th><th>Count</th><th>Conversion</th><th>Complexity</th><th>Lines</th><th colspan="2">Need Conversion</th><th colspan="2">Automated</th><th colspan="2">Manual</th></tr><tr><td>1</td><td><a href="sqlines_report_snippets.html#statements_table_ALTER_TABLE">ALTER TABLE</a></td><td>Alter table</td><td align="right">2</td><td>Ok: 2 <span style="color:green"><strong>&#x2713;</strong></span></td><td>Undefined: 2</td><td align="right">3</td><td>3</td><td>100.0%</td><td>3</td><td>100.0%</td><td>0</td><td>0.0%</td></tr>
+<tr><td>2</td><td><a href="sqlines_report_snippets.html#statements_table_CREATE_TABLE">CREATE TABLE</a></td><td>Create table</td><td align="right">1</td><td><span class="td_warn1">Check: 1</span> <span style="color:red"><strong>!</strong></span></td><td>Medium: 1</td><td align="right">11</td><td>11</td><td>100.0%</td><td>10</td><td>90.9%</td><td>1</td><td>9.1%</td></tr>
+<tr><td>3</td><td><a href="sqlines_report_snippets.html#statements_table_INSERT">INSERT</a></td><td>Insert rows</td><td align="right">1524</td><td><span class="td_warn1">Check: 1524</span> <span style="color:red"><strong>!</strong></span><a href="sqlines_report_snippets.html#statements_table_INSERT_issues" title="1 distinct issue, 1526 occurrences"> (1/1526)</a></td><td>Low: 1524</td><td align="right">1524</td><td>1524</td><td>100.0%</td><td>0</td><td>0.0%</td><td>1524</td><td>100.0%</td></tr>
+<tr><td>4</td><td><a href="sqlines_report_snippets.html#statements_table_USE">USE</a></td><td>Set the current database</td><td align="right">1</td><td><span class="td_warn1">Check: 1</span> <span style="color:red"><strong>!</strong></span></td><td>Undefined: 1</td><td align="right">1</td><td>1</td><td>100.0%</td><td>0</td><td>0.0%</td><td>1</td><td>100.0%</td></tr>
+</table><p><b>Total:</b> 4 distinct statements, 1528 occurrences.</p>
+  <p>CREATE TABLE statements details:</p><table class="report_tab"><tr><th></th><th>Details</th><th>Description</th><th>Count</th><th>Conversion</th><th>Complexity</th></tr><tr><td>1</td><td><a href="sqlines_report_snippets.html#crtab_stmt_table_IDENTITY">IDENTITY</a></td><td><a href="https://www.sqlines.com/sql-server-to-mariadb/identity" target="_blank">Identity column <sup style="font-size: 0.5em;">&#8251;</sup></a></td><td align="right">1</td><td>Ok: 1 <span style="color:green"><strong>&#x2713;</strong></span></td><td>Medium: 1</td></tr>
+<tr><td>2</td><td><a href="sqlines_report_snippets.html#crtab_stmt_table_NOT_NULL">NOT NULL</a></td><td><a href="https://www.sqlines.com/sql-server-to-mariadb#create-table-statement" target="_blank">NOT NULL constraint <sup style="font-size: 0.5em;">&#8251;</sup></a></td><td align="right">6</td><td>No Need: 6 <span style="color:green"><strong>&#x2713;</strong></span></td><td></td></tr>
+<tr><td>3</td><td><a href="sqlines_report_snippets.html#crtab_stmt_table_NULL">NULL</a></td><td><a href="https://www.sqlines.com/sql-server-to-mariadb#create-table-statement" target="_blank">NULL constraint <sup style="font-size: 0.5em;">&#8251;</sup></a></td><td align="right">2</td><td>No Need: 2 <span style="color:green"><strong>&#x2713;</strong></span></td><td></td></tr>
+</table>
+  <p>ALTER TABLE statements details:</p><table class="report_tab"><tr><th></th><th>Details</th><th>Description</th><th>Count</th><th>Conversion</th><th>Complexity</th></tr><tr><td>1</td><td><a href="sqlines_report_snippets.html#alttab_stmt_table_FOREIGN_KEY">FOREIGN KEY</a></td><td>Foreign key constraint</td><td align="right">1</td><td>No Need: 1 <span style="color:green"><strong>&#x2713;</strong></span></td><td></td></tr>
+</table>
+  
+  
+  
+  
+  
+  
+
+
+<!------------------------------->
+
+<h2>Data Types</h2>
+
+<p>All built-in data types:</p><table class="report_tab"><tr><th></th><th>Source Data Type</th><th>Description</th><th>Count</th><th>Conversion</th><th>Complexity</th></tr><tr><td>1</td><td><a href="sqlines_report_snippets.html#datatypes_table_DATETIME2">DATETIME2</a></td><td>Date and time with fraction</td><td align="right">1525</td><td>Ok: 1525 <span style="color:green"><strong>&#x2713;</strong></span></td><td>Low: 1525</td></tr>
+<tr><td>2</td><td><a href="sqlines_report_snippets.html#datatypes_table_DECIMAL">DECIMAL</a></td><td>Fixed-point number</td><td align="right">3050</td><td>Ok: 2 <span style="color:green"><strong>&#x2713;</strong></span> No Need: 3048 <span style="color:green"><strong>&#x2713;</strong></span></td><td>Low: 2</td></tr>
+<tr><td>3</td><td><a href="sqlines_report_snippets.html#datatypes_table_FLOAT">FLOAT</a></td><td>Floating-point number</td><td align="right">1</td><td>Ok: 1 <span style="color:green"><strong>&#x2713;</strong></span></td><td>Low: 1</td></tr>
+<tr><td>4</td><td><a href="sqlines_report_snippets.html#datatypes_table_INT">INT</a></td><td>Integer number</td><td align="right">3</td><td>Ok: 3 <span style="color:green"><strong>&#x2713;</strong></span></td><td>Low: 3</td></tr>
+<tr><td>5</td><td><a href="sqlines_report_snippets.html#datatypes_table_NVARCHAR">NVARCHAR</a></td><td>Unicode variable-length string</td><td align="right">1</td><td>Ok: 1 <span style="color:green"><strong>&#x2713;</strong></span></td><td>Low: 1</td></tr>
+</table><p><b>Total:</b> 5 distinct data types, 4580 occurrences.</p>
+  <p>Built-in data type details:</p><table class="report_tab"><tr><th></th><th>Source Data Type</th><th>Count</th></tr>
+<tr><td>1</td><td><a href="sqlines_report_snippets.html#datatype_dtl_table_DATETIME2">DATETIME2</a></td><td>1524</td></tr><tr><td>2</td><td><a href="sqlines_report_snippets.html#datatype_dtl_table_DATETIME2(7)">DATETIME2(7)</a></td><td>1</td></tr><tr><td>3</td><td><a href="sqlines_report_snippets.html#datatype_dtl_table_DECIMAL">DECIMAL</a></td><td>3050</td></tr><tr><td>4</td><td><a href="sqlines_report_snippets.html#datatype_dtl_table_NVARCHAR(<=255)">NVARCHAR(<=255)</a></td><td>1</td></tr></table><p><b>Total:</b> 4 distinct data type specifications, 4576 occurrences.</p>
+  
+
+
+<!------------------------------->
+
+
+<!------------------------------->
+
+<h2>Functions</h2>
+
+<p>All built-in functions:</p><table class="report_tab"><tr><th></th><th>Function</th><th>Description</th><th>Count</th><th>Conversion</th><th>Complexity</th></tr><tr><td>1</td><td><a href="sqlines_report_snippets.html#builtin_func_table_CAST">CAST</a></td><td><a href="https://www.sqlines.com/sql-server-to-mariadb/cast" target="_blank">Convert data type <sup style="font-size: 0.5em;">&#8251;</sup></a></td><td align="right">4572</td><td><span class="td_warn1">Check: 4572</span> <span style="color:red"><strong>!</strong></span></td><td>Undefined: 4572</td></tr>
+</table><p><b>Total:</b> 1 distinct function, 4572 occurrences.</p>
+  
+
+
+<!------------------------------->
+
+
+<!------------------------------->
+
+
+<!------------------------------->
+
+
+<!------------------------------->
+
+
+<!------------------------------->
+
+
+<!------------------------------->
+
+<a name="conversion_issues"></a>
+<h2>Conversion Issues</h2>
+
+<p>Conversion issues that require review:</p><table class="report_tab"><tr><th></th><th>Issue</th><th>Description</th><th>Count</th><tr><td>1</td><td><a href="sqlines_report_snippets.html#conversion_issues_CAST">CAST</a></td><td><a href="https://www.sqlines.com/sql-server-to-mariadb/cast" target="_blank">Convert data type <sup style="font-size: 0.5em;">&#8251;</sup></a></td><td>4572</td></tr></table><p><b>Total:</b> 1 distinct conversion issue, 4572 occurrences.</p>
+
+
+<!------------------------------->
+
+
+<!------------------------------->
+
+
+<!------------------------------->
+
+<a name="conversion_undefined_tokens"></a>
+<h2>Undefined Tokens</h2>
+
+<p>Parsed tokens for which conversion is undefined:</p><table class="report_tab"><tr><th></th><th>Token</th><th>Count</th><tr><td>1</td><td><a href="sqlines_report_snippets.html#undefined_tokens_USE">USE</a></td><td>1</td></tr></table><p><b>Total:</b> 1 distinct token, 1 occurrence.</p>
+

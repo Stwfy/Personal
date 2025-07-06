@@ -1,0 +1,538 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "WebApplication1",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Mappas": {
+      "get": {
+        "tags": [
+          "Mappas"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Mappa"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Mappa"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Mappa"
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized – API Key was missing or invalid"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Mappas"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Mappa"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Mappa"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Mappa"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Mappa"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Mappa"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Mappa"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized – API Key was missing or invalid"
+          }
+        }
+      }
+    },
+    "/api/Mappas/{id}": {
+      "get": {
+        "tags": [
+          "Mappas"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Mappa"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Mappa"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Mappa"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized – API Key was missing or invalid"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Mappas"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Mappa"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Mappa"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Mappa"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "401": {
+            "description": "Unauthorized – API Key was missing or invalid"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Mappas"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "401": {
+            "description": "Unauthorized – API Key was missing or invalid"
+          }
+        }
+      }
+    },
+    "/api/Mappas/comune/{comune}": {
+      "get": {
+        "tags": [
+          "Mappas"
+        ],
+        "parameters": [
+          {
+            "name": "comune",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "401": {
+            "description": "Unauthorized – API Key was missing or invalid"
+          }
+        }
+      }
+    },
+    "/api/Mappas/provincia/{provincia}": {
+      "get": {
+        "tags": [
+          "Mappas"
+        ],
+        "parameters": [
+          {
+            "name": "provincia",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "401": {
+            "description": "Unauthorized – API Key was missing or invalid"
+          }
+        }
+      }
+    },
+    "/WeatherForecast": {
+      "get": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "operationId": "GetWeatherForecast",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized – API Key was missing or invalid"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Comune": {
+        "type": "object",
+        "properties": {
+          "idComune": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idProvincia": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "codiceComune": {
+            "type": "string",
+            "nullable": true
+          },
+          "denominazione": {
+            "type": "string",
+            "nullable": true
+          },
+          "codiceCatastale": {
+            "type": "string",
+            "nullable": true
+          },
+          "capoluogoProvincia": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "zonaAltimetrica": {
+            "type": "string",
+            "nullable": true
+          },
+          "altitudineCentro": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "comuneLitoraneo": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "comuneMontano": {
+            "type": "string",
+            "nullable": true
+          },
+          "superficieTerritoriale": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "popolazione2001": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "popolazione2011": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idProvinciaNavigation": {
+            "$ref": "#/components/schemas/Provincium"
+          },
+          "mappas": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Mappa"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Mappa": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idComune": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nome": {
+            "type": "string",
+            "nullable": true
+          },
+          "annoInserimento": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "dataOraInserimento": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "identificatoreOpenStreetMap": {
+            "type": "number",
+            "format": "double"
+          },
+          "longitudine": {
+            "type": "number",
+            "format": "double"
+          },
+          "latitudine": {
+            "type": "number",
+            "format": "double"
+          },
+          "idComuneNavigation": {
+            "$ref": "#/components/schemas/Comune"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Provincium": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idRegione": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "denominazione": {
+            "type": "string",
+            "nullable": true
+          },
+          "sigla": {
+            "type": "string",
+            "nullable": true
+          },
+          "comunes": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Comune"
+            },
+            "nullable": true
+          },
+          "idRegioneNavigation": {
+            "$ref": "#/components/schemas/Regione"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Regione": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idRipartizioneGeografica": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "denominazione": {
+            "type": "string",
+            "nullable": true
+          },
+          "idRipartizioneGeograficaNavigation": {
+            "$ref": "#/components/schemas/RipartizioneGeografica"
+          },
+          "provincia": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Provincium"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RipartizioneGeografica": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "denominazione": {
+            "type": "string",
+            "nullable": true
+          },
+          "regiones": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Regione"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "WeatherForecast": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "temperatureC": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "temperatureF": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "summary": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "ApiKey": {
+        "type": "apiKey",
+        "description": "API Key needed to access the endpoints",
+        "name": "X-API-KEY",
+        "in": "header"
+      }
+    }
+  },
+  "security": [
+    {
+      "ApiKey": [ ]
+    }
+  ]
+}

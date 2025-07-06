@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "AutoveloxProject.WebAPI\\AutoveloxProject.WebAPI.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "AutoveloxProject.WebFrontEnd\\AutoveloxProject.WebFrontEnd.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

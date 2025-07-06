@@ -1,0 +1,6 @@
+@AutoveloxDapper_HostAddress = http://localhost:5216
+
+GET {{AutoveloxDapper_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

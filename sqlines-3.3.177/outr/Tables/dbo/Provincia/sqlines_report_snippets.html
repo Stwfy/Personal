@@ -1,0 +1,203 @@
+<style type="text/css">
+body { font-family: verdana; }
+h1 { font-family: trebuchet ms, verdana; font-size: 20px; color: #000000; border-bottom:1px solid grey; }
+h2 { font-family: trebuchet ms, verdana; font-size: 18px; color: #000000; border-bottom:1px solid grey; }
+p { font-size: 13px; }
+table { font-size: 13px; border: 1px solid; border-collapse:collapse; }
+.report_tab tr:hover td { background-color: #A4BBFE; }
+th { background: #FFFFFF; padding: 0px 10px 0px 10px; border: 1px solid grey; }
+td { padding: 0px 10px 0px 10px; border: 1px solid grey; }
+.td_warn { background:yellow; }
+.td_error { background:lightpink; }
+a:link { text-decoration: none; color: #0000A0;}
+a:visited { text-decoration: none; color: #0000A0;}
+a:active { text-decoration: none; color: #0000A0;}
+a:hover { text-decoration: none; color: #800517;}
+pre { white-space: pre-wrap; } 
+.token_kw { color:blue }
+.token_str { color:green }
+.token_num { color:brown }
+.token_dtype { color:maroon  }
+.token_symb { color:darkblue }
+.token_comment { color:grey }
+.token_func { color:blue }
+.token_udf { color:#8B0000 }
+.token_ok { background-color:#E0FFD2 }
+.token_error { background-color:#FFCCCB }
+.token_warn { background-color:#FFF380 }
+
+.tooltip { position: relative; display: inline-block; cursor: pointer; }
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color: #fff;
+  color: #555;
+  font-family: verdana;
+  font-size: 11px; 
+  border-style: ridge;
+  border-radius: 6px;
+  padding: 5px 5px;
+  position: absolute;
+  z-index: 1;
+  left: 100%;           /* tooltip is placed on the right without any padding */
+  white-space: normal;
+  top: 50%;
+  opacity: 0;
+  transition: opacity 0.3s;
+  width: max-content;
+  margin-left: -10px;  /* tooltip sligthly overlaps on the right so we can easily go to link */
+  user-select: none;
+}
+.tooltip:hover .tooltiptext { visibility: visible; opacity: 1; }
+
+</style>
+
+<!------------------------------->
+
+<h2>Top-Level Statements by Type</h2>
+
+<p>Standalone top-level SQL statements by type excluding nested statements that appear inside other statements 
+(CREATE TABLE or INSERT inside CREATE PROCEDURE i.e.):</p>
+<a name="top_statements_by_type_table_Table"></a><p>Table</p><table class="snippet_tab"><th></th><th>Source</th><th>Target</th><tr><td valign="top">1</td><td valign="top"><pre><span class="token_comment">/* @SQLines(Filename - convert1.sql:146) */</span>
+<span class="tooltip"><span class="token_kw">CREATE</span><span class="tooltiptext"><b>CREATE</b> - Create table</span></span> <span class="tooltip"><span class="token_kw">TABLE</span><span class="tooltiptext"><b>TABLE</b> - Create table</span></span> <span class="tooltip"><span class="token_ok">[dbo].[Provincia]</span><span class="tooltiptext"><b>[dbo].[Provincia]</b> - Identifier - [] changed to ``. <a href="https://www.sqlines.com/sql-server-to-mysql#identifiers" target="_blank">More...</a></span></span>(
+	<span class="tooltip"><span class="token_ok">[Id]</span><span class="tooltiptext"><b>[Id]</b> - Identifier - [] changed to ``. <a href="https://www.sqlines.com/sql-server-to-mysql#identifiers" target="_blank">More...</a></span></span> <span class="token_ok"><span class="token_kw">[int]</span></span> <span class="tooltip"><span class="token_ok"><span class="token_kw">IDENTITY</span></span><span class="tooltiptext"><b>IDENTITY</b> - Identity column - Converted to AUTO_INCREMENT. <a href="https://www.sqlines.com/sql-server-to-mysql/identity" target="_blank">More...</a></span></span><span class="token_ok">(</span><span class="token_ok"><span class="token_num">1</span></span><span class="token_ok">,</span><span class="token_ok"><span class="token_num">1</span></span><span class="token_ok">)</span> <span class="tooltip"><span class="token_kw">NOT</span><span class="tooltiptext"><b>NOT</b> - NOT NULL constraint - No conversion needed. <a href="https://www.sqlines.com/sql-server-to-mysql#create-table-statement" target="_blank">More...</a></span></span> <span class="tooltip"><span class="token_kw">NULL</span><span class="tooltiptext"><b>NULL</b> - NOT NULL constraint - No conversion needed. <a href="https://www.sqlines.com/sql-server-to-mysql#create-table-statement" target="_blank">More...</a></span></span>,
+	<span class="tooltip"><span class="token_ok">[IdRegione]</span><span class="tooltiptext"><b>[IdRegione]</b> - Identifier - [] changed to ``. <a href="https://www.sqlines.com/sql-server-to-mysql#identifiers" target="_blank">More...</a></span></span> <span class="token_ok"><span class="token_kw">[int]</span></span> <span class="tooltip"><span class="token_kw">NOT</span><span class="tooltiptext"><b>NOT</b> - NOT NULL constraint - No conversion needed. <a href="https://www.sqlines.com/sql-server-to-mysql#create-table-statement" target="_blank">More...</a></span></span> <span class="tooltip"><span class="token_kw">NULL</span><span class="tooltiptext"><b>NULL</b> - NOT NULL constraint - No conversion needed. <a href="https://www.sqlines.com/sql-server-to-mysql#create-table-statement" target="_blank">More...</a></span></span>,
+	<span class="tooltip"><span class="token_ok">[Denominazione]</span><span class="tooltiptext"><b>[Denominazione]</b> - Identifier - [] changed to ``. <a href="https://www.sqlines.com/sql-server-to-mysql#identifiers" target="_blank">More...</a></span></span> <span class="token_ok"><span class="token_kw">[varchar]</span></span>(<span class="token_num">50</span>) <span class="tooltip"><span class="token_kw">NULL</span><span class="tooltiptext"><b>NULL</b> - NULL constraint - No conversion needed. <a href="https://www.sqlines.com/sql-server-to-mysql#create-table-statement" target="_blank">More...</a></span></span>,
+	<span class="tooltip"><span class="token_ok">[Sigla]</span><span class="tooltiptext"><b>[Sigla]</b> - Identifier - [] changed to ``. <a href="https://www.sqlines.com/sql-server-to-mysql#identifiers" target="_blank">More...</a></span></span> <span class="token_ok"><span class="token_kw">[char]</span></span>(<span class="token_error"><span class="token_num">2</span></span>) <span class="tooltip"><span class="token_kw">NULL</span><span class="tooltiptext"><b>NULL</b> - NULL constraint - No conversion needed. <a href="https://www.sqlines.com/sql-server-to-mysql#create-table-statement" target="_blank">More...</a></span></span>,
+ <span class="tooltip"><span class="token_comment">CONSTRAINT</span><span class="tooltiptext"><b>CONSTRAINT</b> - Constraint name - Ignored for primary key. <a href="https://www.sqlines.com/sql-server-to-mysql/primary_key_name" target="_blank">More...</a></span></span><span class="token_comment"> </span><span class="tooltip"><span class="token_ok"><span class="token_comment">[PK_Provincia]</span></span><span class="tooltiptext"><b>[PK_Provincia]</b> - Identifier - [] changed to ``. <a href="https://www.sqlines.com/sql-server-to-mysql#identifiers" target="_blank">More...</a></span></span> <span class="token_kw">PRIMARY</span> <span class="token_kw">KEY</span> <span class="token_ok"><span class="token_kw">CLUSTERED</span></span> 
+(
+	<span class="tooltip"><span class="token_ok">[Id]</span><span class="tooltiptext"><b>[Id]</b> - Identifier - [] changed to ``. <a href="https://www.sqlines.com/sql-server-to-mysql#identifiers" target="_blank">More...</a></span></span> <span class="token_kw">ASC</span>
+)<span class="token_ok">WITH</span> <span class="token_ok">(</span><span class="token_ok">PAD_INDEX</span> <span class="token_ok">=</span> <span class="token_ok">OFF</span><span class="token_ok">,</span> <span class="token_ok">STATISTICS_NORECOMPUTE</span> <span class="token_ok">=</span> <span class="token_ok">OFF</span><span class="token_ok">,</span> <span class="token_ok">IGNORE_DUP_KEY</span> <span class="token_ok">=</span> <span class="token_ok">OFF</span><span class="token_ok">,</span> <span class="token_ok">ALLOW_ROW_LOCKS</span> <span class="token_ok">=</span> <span class="token_ok">ON</span><span class="token_ok">,</span> <span class="token_ok">ALLOW_PAGE_LOCKS</span> <span class="token_ok">=</span> <span class="token_ok">ON</span><span class="token_ok">,</span> <span class="token_ok">OPTIMIZE_FOR_SEQUENTIAL_KEY</span> <span class="token_ok">=</span> <span class="token_ok">OFF</span><span class="token_ok">)</span> <span class="token_ok">ON</span> <span class="token_ok">[PRIMARY]</span>
+) <span class="token_ok">ON</span> <span class="token_ok">[PRIMARY]</span>
+<span class="token_ok"><span class="token_kw">GO</span></span></pre></td><td valign="top"><pre> 
+<span class="tooltip"><span class="token_kw">CREATE</span><span class="tooltiptext"><b>CREATE</b> - Create table</span></span> <span class="tooltip"><span class="token_kw">TABLE</span><span class="tooltiptext"><b>TABLE</b> - Create table</span></span> <span class="tooltip"><span class="token_ok">`Provincia`</span><span class="tooltiptext"><b>[dbo].[Provincia]</b> - Identifier - [] changed to ``. <a href="https://www.sqlines.com/sql-server-to-mysql#identifiers" target="_blank">More...</a></span></span>(
+	<span class="tooltip"><span class="token_ok">`Id`</span><span class="tooltiptext"><b>[Id]</b> - Identifier - [] changed to ``. <a href="https://www.sqlines.com/sql-server-to-mysql#identifiers" target="_blank">More...</a></span></span> <span class="token_ok"><span class="token_kw">int</span></span> <span class="tooltip"><span class="token_ok"><span class="token_kw">AUTO_INCREMENT</span></span><span class="tooltiptext"><b>IDENTITY</b> - Identity column - Converted to AUTO_INCREMENT. <a href="https://www.sqlines.com/sql-server-to-mysql/identity" target="_blank">More...</a></span></span> <span class="tooltip"><span class="token_kw">NOT</span><span class="tooltiptext"><b>NOT</b> - NOT NULL constraint - No conversion needed. <a href="https://www.sqlines.com/sql-server-to-mysql#create-table-statement" target="_blank">More...</a></span></span> <span class="tooltip"><span class="token_kw">NULL</span><span class="tooltiptext"><b>NULL</b> - NOT NULL constraint - No conversion needed. <a href="https://www.sqlines.com/sql-server-to-mysql#create-table-statement" target="_blank">More...</a></span></span>,
+	<span class="tooltip"><span class="token_ok">`IdRegione`</span><span class="tooltiptext"><b>[IdRegione]</b> - Identifier - [] changed to ``. <a href="https://www.sqlines.com/sql-server-to-mysql#identifiers" target="_blank">More...</a></span></span> <span class="token_ok"><span class="token_kw">int</span></span> <span class="tooltip"><span class="token_kw">NOT</span><span class="tooltiptext"><b>NOT</b> - NOT NULL constraint - No conversion needed. <a href="https://www.sqlines.com/sql-server-to-mysql#create-table-statement" target="_blank">More...</a></span></span> <span class="tooltip"><span class="token_kw">NULL</span><span class="tooltiptext"><b>NULL</b> - NOT NULL constraint - No conversion needed. <a href="https://www.sqlines.com/sql-server-to-mysql#create-table-statement" target="_blank">More...</a></span></span>,
+	<span class="tooltip"><span class="token_ok">`Denominazione`</span><span class="tooltiptext"><b>[Denominazione]</b> - Identifier - [] changed to ``. <a href="https://www.sqlines.com/sql-server-to-mysql#identifiers" target="_blank">More...</a></span></span> <span class="token_ok"><span class="token_kw">varchar</span></span>(<span class="token_num">50</span>) <span class="tooltip"><span class="token_kw">NULL</span><span class="tooltiptext"><b>NULL</b> - NULL constraint - No conversion needed. <a href="https://www.sqlines.com/sql-server-to-mysql#create-table-statement" target="_blank">More...</a></span></span>,
+	<span class="tooltip"><span class="token_ok">`Sigla`</span><span class="tooltiptext"><b>[Sigla]</b> - Identifier - [] changed to ``. <a href="https://www.sqlines.com/sql-server-to-mysql#identifiers" target="_blank">More...</a></span></span> <span class="token_ok"><span class="token_kw">char</span></span>(<span class="token_error"><span class="token_num">2</span></span>) <span class="tooltip"><span class="token_kw">NULL</span><span class="tooltiptext"><b>NULL</b> - NULL constraint - No conversion needed. <a href="https://www.sqlines.com/sql-server-to-mysql#create-table-statement" target="_blank">More...</a></span></span>,
+ <span class="token_comment"><span class="token_ok">/* </span></span><span class="token_comment"><span class="token_ok">Name ignored: </span></span><span class="tooltip"><span class="token_comment">CONSTRAINT</span><span class="tooltiptext"><b>CONSTRAINT</b> - Constraint name - Ignored for primary key. <a href="https://www.sqlines.com/sql-server-to-mysql/primary_key_name" target="_blank">More...</a></span></span><span class="token_comment"> </span><span class="tooltip"><span class="token_ok"><span class="token_comment">`PK_Provincia`</span></span><span class="tooltiptext"><b>[PK_Provincia]</b> - Identifier - [] changed to ``. <a href="https://www.sqlines.com/sql-server-to-mysql#identifiers" target="_blank">More...</a></span></span><span class="token_comment"><span class="token_ok"> */</span></span> <span class="token_kw">PRIMARY</span> <span class="token_kw">KEY</span> 
+(
+	<span class="tooltip"><span class="token_ok">`Id`</span><span class="tooltiptext"><b>[Id]</b> - Identifier - [] changed to ``. <a href="https://www.sqlines.com/sql-server-to-mysql#identifiers" target="_blank">More...</a></span></span> <span class="token_kw">ASC</span>
+) 
+)<span class="token_ok">;</span>
+</pre></td></tr>
+</table>
+
+
+<!------------------------------->
+
+<h2>All SQL Statements</h2>
+
+<p>Note that some statements can be nested within others (CREATE TABLE or INSERT inside CREATE PROCEDURE i.e. so issues, lines and other metrics cannot be summed): </p>
+<a name="statements_table_CREATE_TABLE"></a><p>CREATE TABLE - Create table</p><table class="snippet_tab"><th></th><th>Source</th><th>Target</th><tr><td valign="top">1</td><td valign="top"><pre><span class="token_comment">/* @SQLines(Filename - convert1.sql:146) */</span>
+<span class="tooltip"><span class="token_kw">CREATE</span><span class="tooltiptext"><b>CREATE</b> - Create table</span></span> <span class="tooltip"><span class="token_kw">TABLE</span><span class="tooltiptext"><b>TABLE</b> - Create table</span></span> <span class="tooltip"><span class="token_ok">[dbo].[Provincia]</span><span class="tooltiptext"><b>[dbo].[Provincia]</b> - Identifier - [] changed to ``. <a href="https://www.sqlines.com/sql-server-to-mysql#identifiers" target="_blank">More...</a></span></span>(
+	<span class="tooltip"><span class="token_ok">[Id]</span><span class="tooltiptext"><b>[Id]</b> - Identifier - [] changed to ``. <a href="https://www.sqlines.com/sql-server-to-mysql#identifiers" target="_blank">More...</a></span></span> <span class="token_ok"><span class="token_kw">[int]</span></span> <span class="tooltip"><span class="token_ok"><span class="token_kw">IDENTITY</span></span><span class="tooltiptext"><b>IDENTITY</b> - Identity column - Converted to AUTO_INCREMENT. <a href="https://www.sqlines.com/sql-server-to-mysql/identity" target="_blank">More...</a></span></span><span class="token_ok">(</span><span class="token_ok"><span class="token_num">1</span></span><span class="token_ok">,</span><span class="token_ok"><span class="token_num">1</span></span><span class="token_ok">)</span> <span class="tooltip"><span class="token_kw">NOT</span><span class="tooltiptext"><b>NOT</b> - NOT NULL constraint - No conversion needed. <a href="https://www.sqlines.com/sql-server-to-mysql#create-table-statement" target="_blank">More...</a></span></span> <span class="tooltip"><span class="token_kw">NULL</span><span class="tooltiptext"><b>NULL</b> - NOT NULL constraint - No conversion needed. <a href="https://www.sqlines.com/sql-server-to-mysql#create-table-statement" target="_blank">More...</a></span></span>,
+	<span class="tooltip"><span class="token_ok">[IdRegione]</span><span class="tooltiptext"><b>[IdRegione]</b> - Identifier - [] changed to ``. <a href="https://www.sqlines.com/sql-server-to-mysql#identifiers" target="_blank">More...</a></span></span> <span class="token_ok"><span class="token_kw">[int]</span></span> <span class="tooltip"><span class="token_kw">NOT</span><span class="tooltiptext"><b>NOT</b> - NOT NULL constraint - No conversion needed. <a href="https://www.sqlines.com/sql-server-to-mysql#create-table-statement" target="_blank">More...</a></span></span> <span class="tooltip"><span class="token_kw">NULL</span><span class="tooltiptext"><b>NULL</b> - NOT NULL constraint - No conversion needed. <a href="https://www.sqlines.com/sql-server-to-mysql#create-table-statement" target="_blank">More...</a></span></span>,
+	<span class="tooltip"><span class="token_ok">[Denominazione]</span><span class="tooltiptext"><b>[Denominazione]</b> - Identifier - [] changed to ``. <a href="https://www.sqlines.com/sql-server-to-mysql#identifiers" target="_blank">More...</a></span></span> <span class="token_ok"><span class="token_kw">[varchar]</span></span>(<span class="token_num">50</span>) <span class="tooltip"><span class="token_kw">NULL</span><span class="tooltiptext"><b>NULL</b> - NULL constraint - No conversion needed. <a href="https://www.sqlines.com/sql-server-to-mysql#create-table-statement" target="_blank">More...</a></span></span>,
+	<span class="tooltip"><span class="token_ok">[Sigla]</span><span class="tooltiptext"><b>[Sigla]</b> - Identifier - [] changed to ``. <a href="https://www.sqlines.com/sql-server-to-mysql#identifiers" target="_blank">More...</a></span></span> <span class="token_ok"><span class="token_kw">[char]</span></span>(<span class="token_error"><span class="token_num">2</span></span>) <span class="tooltip"><span class="token_kw">NULL</span><span class="tooltiptext"><b>NULL</b> - NULL constraint - No conversion needed. <a href="https://www.sqlines.com/sql-server-to-mysql#create-table-statement" target="_blank">More...</a></span></span>,
+ <span class="tooltip"><span class="token_comment">CONSTRAINT</span><span class="tooltiptext"><b>CONSTRAINT</b> - Constraint name - Ignored for primary key. <a href="https://www.sqlines.com/sql-server-to-mysql/primary_key_name" target="_blank">More...</a></span></span><span class="token_comment"> </span><span class="tooltip"><span class="token_ok"><span class="token_comment">[PK_Provincia]</span></span><span class="tooltiptext"><b>[PK_Provincia]</b> - Identifier - [] changed to ``. <a href="https://www.sqlines.com/sql-server-to-mysql#identifiers" target="_blank">More...</a></span></span> <span class="token_kw">PRIMARY</span> <span class="token_kw">KEY</span> <span class="token_ok"><span class="token_kw">CLUSTERED</span></span> 
+(
+	<span class="tooltip"><span class="token_ok">[Id]</span><span class="tooltiptext"><b>[Id]</b> - Identifier - [] changed to ``. <a href="https://www.sqlines.com/sql-server-to-mysql#identifiers" target="_blank">More...</a></span></span> <span class="token_kw">ASC</span>
+)<span class="token_ok">WITH</span> <span class="token_ok">(</span><span class="token_ok">PAD_INDEX</span> <span class="token_ok">=</span> <span class="token_ok">OFF</span><span class="token_ok">,</span> <span class="token_ok">STATISTICS_NORECOMPUTE</span> <span class="token_ok">=</span> <span class="token_ok">OFF</span><span class="token_ok">,</span> <span class="token_ok">IGNORE_DUP_KEY</span> <span class="token_ok">=</span> <span class="token_ok">OFF</span><span class="token_ok">,</span> <span class="token_ok">ALLOW_ROW_LOCKS</span> <span class="token_ok">=</span> <span class="token_ok">ON</span><span class="token_ok">,</span> <span class="token_ok">ALLOW_PAGE_LOCKS</span> <span class="token_ok">=</span> <span class="token_ok">ON</span><span class="token_ok">,</span> <span class="token_ok">OPTIMIZE_FOR_SEQUENTIAL_KEY</span> <span class="token_ok">=</span> <span class="token_ok">OFF</span><span class="token_ok">)</span> <span class="token_ok">ON</span> <span class="token_ok">[PRIMARY]</span>
+) <span class="token_ok">ON</span> <span class="token_ok">[PRIMARY]</span>
+<span class="token_ok"><span class="token_kw">GO</span></span></pre></td><td valign="top"><pre> 
+<span class="tooltip"><span class="token_kw">CREATE</span><span class="tooltiptext"><b>CREATE</b> - Create table</span></span> <span class="tooltip"><span class="token_kw">TABLE</span><span class="tooltiptext"><b>TABLE</b> - Create table</span></span> <span class="tooltip"><span class="token_ok">`Provincia`</span><span class="tooltiptext"><b>[dbo].[Provincia]</b> - Identifier - [] changed to ``. <a href="https://www.sqlines.com/sql-server-to-mysql#identifiers" target="_blank">More...</a></span></span>(
+	<span class="tooltip"><span class="token_ok">`Id`</span><span class="tooltiptext"><b>[Id]</b> - Identifier - [] changed to ``. <a href="https://www.sqlines.com/sql-server-to-mysql#identifiers" target="_blank">More...</a></span></span> <span class="token_ok"><span class="token_kw">int</span></span> <span class="tooltip"><span class="token_ok"><span class="token_kw">AUTO_INCREMENT</span></span><span class="tooltiptext"><b>IDENTITY</b> - Identity column - Converted to AUTO_INCREMENT. <a href="https://www.sqlines.com/sql-server-to-mysql/identity" target="_blank">More...</a></span></span> <span class="tooltip"><span class="token_kw">NOT</span><span class="tooltiptext"><b>NOT</b> - NOT NULL constraint - No conversion needed. <a href="https://www.sqlines.com/sql-server-to-mysql#create-table-statement" target="_blank">More...</a></span></span> <span class="tooltip"><span class="token_kw">NULL</span><span class="tooltiptext"><b>NULL</b> - NOT NULL constraint - No conversion needed. <a href="https://www.sqlines.com/sql-server-to-mysql#create-table-statement" target="_blank">More...</a></span></span>,
+	<span class="tooltip"><span class="token_ok">`IdRegione`</span><span class="tooltiptext"><b>[IdRegione]</b> - Identifier - [] changed to ``. <a href="https://www.sqlines.com/sql-server-to-mysql#identifiers" target="_blank">More...</a></span></span> <span class="token_ok"><span class="token_kw">int</span></span> <span class="tooltip"><span class="token_kw">NOT</span><span class="tooltiptext"><b>NOT</b> - NOT NULL constraint - No conversion needed. <a href="https://www.sqlines.com/sql-server-to-mysql#create-table-statement" target="_blank">More...</a></span></span> <span class="tooltip"><span class="token_kw">NULL</span><span class="tooltiptext"><b>NULL</b> - NOT NULL constraint - No conversion needed. <a href="https://www.sqlines.com/sql-server-to-mysql#create-table-statement" target="_blank">More...</a></span></span>,
+	<span class="tooltip"><span class="token_ok">`Denominazione`</span><span class="tooltiptext"><b>[Denominazione]</b> - Identifier - [] changed to ``. <a href="https://www.sqlines.com/sql-server-to-mysql#identifiers" target="_blank">More...</a></span></span> <span class="token_ok"><span class="token_kw">varchar</span></span>(<span class="token_num">50</span>) <span class="tooltip"><span class="token_kw">NULL</span><span class="tooltiptext"><b>NULL</b> - NULL constraint - No conversion needed. <a href="https://www.sqlines.com/sql-server-to-mysql#create-table-statement" target="_blank">More...</a></span></span>,
+	<span class="tooltip"><span class="token_ok">`Sigla`</span><span class="tooltiptext"><b>[Sigla]</b> - Identifier - [] changed to ``. <a href="https://www.sqlines.com/sql-server-to-mysql#identifiers" target="_blank">More...</a></span></span> <span class="token_ok"><span class="token_kw">char</span></span>(<span class="token_error"><span class="token_num">2</span></span>) <span class="tooltip"><span class="token_kw">NULL</span><span class="tooltiptext"><b>NULL</b> - NULL constraint - No conversion needed. <a href="https://www.sqlines.com/sql-server-to-mysql#create-table-statement" target="_blank">More...</a></span></span>,
+ <span class="token_comment"><span class="token_ok">/* </span></span><span class="token_comment"><span class="token_ok">Name ignored: </span></span><span class="tooltip"><span class="token_comment">CONSTRAINT</span><span class="tooltiptext"><b>CONSTRAINT</b> - Constraint name - Ignored for primary key. <a href="https://www.sqlines.com/sql-server-to-mysql/primary_key_name" target="_blank">More...</a></span></span><span class="token_comment"> </span><span class="tooltip"><span class="token_ok"><span class="token_comment">`PK_Provincia`</span></span><span class="tooltiptext"><b>[PK_Provincia]</b> - Identifier - [] changed to ``. <a href="https://www.sqlines.com/sql-server-to-mysql#identifiers" target="_blank">More...</a></span></span><span class="token_comment"><span class="token_ok"> */</span></span> <span class="token_kw">PRIMARY</span> <span class="token_kw">KEY</span> 
+(
+	<span class="tooltip"><span class="token_ok">`Id`</span><span class="tooltiptext"><b>[Id]</b> - Identifier - [] changed to ``. <a href="https://www.sqlines.com/sql-server-to-mysql#identifiers" target="_blank">More...</a></span></span> <span class="token_kw">ASC</span>
+) 
+)<span class="token_ok">;</span>
+</pre></td></tr>
+</table>
+  <p>CREATE TABLE statements details:</p><a name="crtab_stmt_table_IDENTITY"></a><p>IDENTITY - Identity column</p><table class="snippet_tab"><th></th><th>Source</th><th>Target</th><tr><td valign="top">1</td><td valign="top"><pre><span class="token_comment">/* @SQLines(Filename - convert1.sql:147) */</span>
+<span class="tooltip"><span class="token_ok"><span class="token_kw">IDENTITY</span></span><span class="tooltiptext"><b>IDENTITY</b> - Identity column - Converted to AUTO_INCREMENT. <a href="https://www.sqlines.com/sql-server-to-mysql/identity" target="_blank">More...</a></span></span><span class="token_ok">(</span><span class="token_ok"><span class="token_num">1</span></span><span class="token_ok">,</span><span class="token_ok"><span class="token_num">1</span></span><span class="token_ok">)</span></pre></td><td valign="top"><pre> 
+<span class="tooltip"><span class="token_ok"><span class="token_kw">AUTO_INCREMENT</span></span><span class="tooltiptext"><b>IDENTITY</b> - Identity column - Converted to AUTO_INCREMENT. <a href="https://www.sqlines.com/sql-server-to-mysql/identity" target="_blank">More...</a></span></span></pre></td></tr>
+</table><a name="crtab_stmt_table_NOT_NULL"></a><p>NOT NULL - NOT NULL constraint</p><table class="snippet_tab"><th></th><th>Source</th><th>Target</th><tr><td valign="top">1</td><td valign="top"><pre><span class="token_comment">/* @SQLines(Filename - convert1.sql:147) */</span>
+<span class="tooltip"><span class="token_kw">NOT</span><span class="tooltiptext"><b>NOT</b> - NOT NULL constraint - No conversion needed. <a href="https://www.sqlines.com/sql-server-to-mysql#create-table-statement" target="_blank">More...</a></span></span> <span class="tooltip"><span class="token_kw">NULL</span><span class="tooltiptext"><b>NULL</b> - NOT NULL constraint - No conversion needed. <a href="https://www.sqlines.com/sql-server-to-mysql#create-table-statement" target="_blank">More...</a></span></span></pre></td><td valign="top"><pre> 
+<span class="tooltip"><span class="token_kw">NOT</span><span class="tooltiptext"><b>NOT</b> - NOT NULL constraint - No conversion needed. <a href="https://www.sqlines.com/sql-server-to-mysql#create-table-statement" target="_blank">More...</a></span></span> <span class="tooltip"><span class="token_kw">NULL</span><span class="tooltiptext"><b>NULL</b> - NOT NULL constraint - No conversion needed. <a href="https://www.sqlines.com/sql-server-to-mysql#create-table-statement" target="_blank">More...</a></span></span></pre></td></tr>
+<tr><td valign="top">2</td><td valign="top"><pre><span class="token_comment">/* @SQLines(Filename - convert1.sql:148) */</span>
+<span class="tooltip"><span class="token_kw">NOT</span><span class="tooltiptext"><b>NOT</b> - NOT NULL constraint - No conversion needed. <a href="https://www.sqlines.com/sql-server-to-mysql#create-table-statement" target="_blank">More...</a></span></span> <span class="tooltip"><span class="token_kw">NULL</span><span class="tooltiptext"><b>NULL</b> - NOT NULL constraint - No conversion needed. <a href="https://www.sqlines.com/sql-server-to-mysql#create-table-statement" target="_blank">More...</a></span></span></pre></td><td valign="top"><pre> 
+<span class="tooltip"><span class="token_kw">NOT</span><span class="tooltiptext"><b>NOT</b> - NOT NULL constraint - No conversion needed. <a href="https://www.sqlines.com/sql-server-to-mysql#create-table-statement" target="_blank">More...</a></span></span> <span class="tooltip"><span class="token_kw">NULL</span><span class="tooltiptext"><b>NULL</b> - NOT NULL constraint - No conversion needed. <a href="https://www.sqlines.com/sql-server-to-mysql#create-table-statement" target="_blank">More...</a></span></span></pre></td></tr>
+</table><a name="crtab_stmt_table_NULL"></a><p>NULL - NULL constraint</p><table class="snippet_tab"><th></th><th>Source</th><th>Target</th><tr><td valign="top">1</td><td valign="top"><pre><span class="token_comment">/* @SQLines(Filename - convert1.sql:149) */</span>
+<span class="tooltip"><span class="token_kw">NULL</span><span class="tooltiptext"><b>NULL</b> - NULL constraint - No conversion needed. <a href="https://www.sqlines.com/sql-server-to-mysql#create-table-statement" target="_blank">More...</a></span></span></pre></td><td valign="top"><pre> 
+<span class="tooltip"><span class="token_kw">NULL</span><span class="tooltiptext"><b>NULL</b> - NULL constraint - No conversion needed. <a href="https://www.sqlines.com/sql-server-to-mysql#create-table-statement" target="_blank">More...</a></span></span></pre></td></tr>
+<tr><td valign="top">2</td><td valign="top"><pre><span class="token_comment">/* @SQLines(Filename - convert1.sql:150) */</span>
+<span class="tooltip"><span class="token_kw">NULL</span><span class="tooltiptext"><b>NULL</b> - NULL constraint - No conversion needed. <a href="https://www.sqlines.com/sql-server-to-mysql#create-table-statement" target="_blank">More...</a></span></span></pre></td><td valign="top"><pre> 
+<span class="tooltip"><span class="token_kw">NULL</span><span class="tooltiptext"><b>NULL</b> - NULL constraint - No conversion needed. <a href="https://www.sqlines.com/sql-server-to-mysql#create-table-statement" target="_blank">More...</a></span></span></pre></td></tr>
+</table><a name="crtab_stmt_table_PRIMARY_KEY"></a><p>PRIMARY KEY - Primary key constraint</p><table class="snippet_tab"><th></th><th>Source</th><th>Target</th><tr><td valign="top">1</td><td valign="top"><pre><span class="token_comment">/* @SQLines(Filename - convert1.sql:151) */</span>
+<span class="token_kw">PRIMARY</span> <span class="token_kw">KEY</span> <span class="token_ok"><span class="token_kw">CLUSTERED</span></span> 
+(
+	<span class="tooltip"><span class="token_ok">[Id]</span><span class="tooltiptext"><b>[Id]</b> - Identifier - [] changed to ``. <a href="https://www.sqlines.com/sql-server-to-mysql#identifiers" target="_blank">More...</a></span></span> <span class="token_kw">ASC</span>
+)<span class="token_ok">WITH</span> <span class="token_ok">(</span><span class="token_ok">PAD_INDEX</span> <span class="token_ok">=</span> <span class="token_ok">OFF</span><span class="token_ok">,</span> <span class="token_ok">STATISTICS_NORECOMPUTE</span> <span class="token_ok">=</span> <span class="token_ok">OFF</span><span class="token_ok">,</span> <span class="token_ok">IGNORE_DUP_KEY</span> <span class="token_ok">=</span> <span class="token_ok">OFF</span><span class="token_ok">,</span> <span class="token_ok">ALLOW_ROW_LOCKS</span> <span class="token_ok">=</span> <span class="token_ok">ON</span><span class="token_ok">,</span> <span class="token_ok">ALLOW_PAGE_LOCKS</span> <span class="token_ok">=</span> <span class="token_ok">ON</span><span class="token_ok">,</span> <span class="token_ok">OPTIMIZE_FOR_SEQUENTIAL_KEY</span> <span class="token_ok">=</span> <span class="token_ok">OFF</span><span class="token_ok">)</span> <span class="token_ok">ON</span> <span class="token_ok">[PRIMARY]</span></pre></td><td valign="top"><pre> 
+<span class="token_kw">PRIMARY</span> <span class="token_kw">KEY</span> 
+(
+	<span class="tooltip"><span class="token_ok">`Id`</span><span class="tooltiptext"><b>[Id]</b> - Identifier - [] changed to ``. <a href="https://www.sqlines.com/sql-server-to-mysql#identifiers" target="_blank">More...</a></span></span> <span class="token_kw">ASC</span>
+) </pre></td></tr>
+</table>
+  
+  
+  
+  
+  
+  
+  
+
+
+<!------------------------------->
+
+<h2>Data Types</h2>
+
+<p>All built-in data types:</p><a name="datatypes_table_CHAR"></a><p>CHAR - Fixed-length string</p><table class="snippet_tab"><th></th><th>Source</th><th>Target</th><tr><td valign="top">1</td><td valign="top"><pre><span class="token_comment">/* @SQLines(Filename - convert1.sql:150) */</span>
+<span class="token_ok"><span class="token_kw">[char]</span></span>(<span class="token_error"><span class="token_num">2</span></span>)</pre></td><td valign="top"><pre> 
+<span class="token_ok"><span class="token_kw">char</span></span>(<span class="token_error"><span class="token_num">2</span></span>)</pre></td></tr>
+</table><a name="datatypes_table_INT"></a><p>INT - Integer number</p><table class="snippet_tab"><th></th><th>Source</th><th>Target</th><tr><td valign="top">1</td><td valign="top"><pre><span class="token_comment">/* @SQLines(Filename - convert1.sql:147) */</span>
+<span class="token_ok"><span class="token_kw">[int]</span></span></pre></td><td valign="top"><pre> 
+<span class="token_ok"><span class="token_kw">int</span></span></pre></td></tr>
+<tr><td valign="top">2</td><td valign="top"><pre><span class="token_comment">/* @SQLines(Filename - convert1.sql:148) */</span>
+<span class="token_ok"><span class="token_kw">[int]</span></span></pre></td><td valign="top"><pre> 
+<span class="token_ok"><span class="token_kw">int</span></span></pre></td></tr>
+</table><a name="datatypes_table_VARCHAR"></a><p>VARCHAR - Variable-length string</p><table class="snippet_tab"><th></th><th>Source</th><th>Target</th><tr><td valign="top">1</td><td valign="top"><pre><span class="token_comment">/* @SQLines(Filename - convert1.sql:149) */</span>
+<span class="token_ok"><span class="token_kw">[varchar]</span></span>(<span class="token_num">50</span>)</pre></td><td valign="top"><pre> 
+<span class="token_ok"><span class="token_kw">varchar</span></span>(<span class="token_num">50</span>)</pre></td></tr>
+</table>
+  <p>Built-in data type details:</p><a name="datatype_dtl_table_CHAR(<=255)"></a><p>CHAR(<=255)</p><table class="snippet_tab"><th></th><th>Filename:line</th><th>Source Code Snippet</th><tr><td>1</td><td>convert1.sql:150</td><td><pre><span class="token_ok"><span class="token_kw">[char]</span></span>(<span class="token_error"><span class="token_num">2</span></span>)</pre></td></tr>
+</table><a name="datatype_dtl_table_VARCHAR(<=255)"></a><p>VARCHAR(<=255)</p><table class="snippet_tab"><th></th><th>Filename:line</th><th>Source Code Snippet</th><tr><td>1</td><td>convert1.sql:149</td><td><pre><span class="token_ok"><span class="token_kw">[varchar]</span></span>(<span class="token_num">50</span>)</pre></td></tr>
+</table>
+  
+
+
+<!------------------------------->
+
+
+<!------------------------------->
+
+
+<!------------------------------->
+
+
+<!------------------------------->
+
+
+<!------------------------------->
+
+
+<!------------------------------->
+
+
+<!------------------------------->
+
+
+<!------------------------------->
+
+
+<!------------------------------->
+
+
+<!------------------------------->
+
+
+<!------------------------------->
+

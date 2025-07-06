@@ -1,0 +1,41 @@
+﻿@page
+@model Mappe.IndexModel
+@{
+    ViewData["Title"] = "Autovelox List";
+}
+
+<h1>Autovelox</h1>
+
+<form method="get">
+    <input type="text" name="comune" placeholder="Comune" value="@Model.FilterComune" />
+    <input type="text" name="provincia" placeholder="Provincia" value="@Model.FilterProvincia" />
+    <input type="text" name="regione" placeholder="Regione" value="@Model.FilterRegione" />
+    <button type="submit">Filter</button>
+</form>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>Comune</th>
+            <th>Azioni</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var mappa in Model.AutoveloxList)
+        {
+            <tr>
+                <td>@mappa.Id</td>
+                <td>@mappa.Nome</td>
+                <td>@mappa.IdComuneNavigation?.Denominazione</td>
+                <td>
+                    <a asp-page="Edit" asp-route-id="@mappa.Id">Edit</a> |
+                    <a asp-page="Delete" asp-route-id="@mappa.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-page="Create">Add New Autovelox</a>

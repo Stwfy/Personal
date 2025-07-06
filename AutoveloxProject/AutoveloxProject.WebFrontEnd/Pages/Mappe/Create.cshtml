@@ -1,0 +1,45 @@
+﻿@page
+@model Mappe.CreateModel
+@{
+    ViewData["Title"] = "Add Autovelox";
+}
+
+<h2>Add New Autovelox</h2>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="NewAutovelox.Nome"></label>
+        <input asp-for="NewAutovelox.Nome" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="NewAutovelox.IdComune">Comune</label>
+        <select asp-for="NewAutovelox.IdComune" class="form-control" asp-items="Model.ComuniOptions">
+            <option value="">-- Select Comune --</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="NewAutovelox.AnnoInserimento"></label>
+        <input asp-for="NewAutovelox.AnnoInserimento" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="NewAutovelox.IdentificatoreOpenStreetMap"></label>
+        <input asp-for="NewAutovelox.IdentificatoreOpenStreetMap" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="NewAutovelox.Latitudine"></label>
+        <input asp-for="NewAutovelox.Latitudine" class="form-control" type="number" step="0.000001" min="-90" max="90" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="NewAutovelox.Longitudine"></label>
+        <input asp-for="NewAutovelox.Longitudine" class="form-control" type="number" step="0.000001" min="-180" max="180" />
+    </div>
+
+    <button type="submit" class="btn btn-success">Save</button>
+    <a asp-page="Index" class="btn btn-secondary">Cancel</a>
+</form>
+

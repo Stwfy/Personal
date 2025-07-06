@@ -1,0 +1,12 @@
+C:\Lavori\Personal\AutoveloxDapper\AutoveloxDapper.Data\bin\Debug\net8.0\AutoveloxDapper.Data.deps.json
+C:\Lavori\Personal\AutoveloxDapper\AutoveloxDapper.Data\bin\Debug\net8.0\AutoveloxDapper.Data.dll
+C:\Lavori\Personal\AutoveloxDapper\AutoveloxDapper.Data\bin\Debug\net8.0\AutoveloxDapper.Data.pdb
+C:\Lavori\Personal\AutoveloxDapper\AutoveloxDapper.Data\obj\Debug\net8.0\AutoveloxDapper.Data.csproj.AssemblyReference.cache
+C:\Lavori\Personal\AutoveloxDapper\AutoveloxDapper.Data\obj\Debug\net8.0\AutoveloxDapper.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Lavori\Personal\AutoveloxDapper\AutoveloxDapper.Data\obj\Debug\net8.0\AutoveloxDapper.Data.AssemblyInfoInputs.cache
+C:\Lavori\Personal\AutoveloxDapper\AutoveloxDapper.Data\obj\Debug\net8.0\AutoveloxDapper.Data.AssemblyInfo.cs
+C:\Lavori\Personal\AutoveloxDapper\AutoveloxDapper.Data\obj\Debug\net8.0\AutoveloxDapper.Data.csproj.CoreCompileInputs.cache
+C:\Lavori\Personal\AutoveloxDapper\AutoveloxDapper.Data\obj\Debug\net8.0\AutoveloxDapper.Data.dll
+C:\Lavori\Personal\AutoveloxDapper\AutoveloxDapper.Data\obj\Debug\net8.0\refint\AutoveloxDapper.Data.dll
+C:\Lavori\Personal\AutoveloxDapper\AutoveloxDapper.Data\obj\Debug\net8.0\AutoveloxDapper.Data.pdb
+C:\Lavori\Personal\AutoveloxDapper\AutoveloxDapper.Data\obj\Debug\net8.0\ref\AutoveloxDapper.Data.dll

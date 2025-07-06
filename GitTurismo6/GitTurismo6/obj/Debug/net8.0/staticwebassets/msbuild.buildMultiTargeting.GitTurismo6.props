@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\GitTurismo6.props" />
+</Project>

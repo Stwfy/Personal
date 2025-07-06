@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoveloxDapper", "AutoveloxDapper\AutoveloxDapper.csproj", "{9CF3E4F9-1DF2-449B-BD28-801C62286817}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoveloxDapper.Data", "AutoveloxDapper.Data\AutoveloxDapper.Data.csproj", "{DA58ABF6-1516-45CA-BE47-B7B9172FFC0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CF3E4F9-1DF2-449B-BD28-801C62286817}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CF3E4F9-1DF2-449B-BD28-801C62286817}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CF3E4F9-1DF2-449B-BD28-801C62286817}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CF3E4F9-1DF2-449B-BD28-801C62286817}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA58ABF6-1516-45CA-BE47-B7B9172FFC0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA58ABF6-1516-45CA-BE47-B7B9172FFC0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA58ABF6-1516-45CA-BE47-B7B9172FFC0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA58ABF6-1516-45CA-BE47-B7B9172FFC0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3028D860-3B31-47E7-8A30-7C8DB2419F0B}
+	EndGlobalSection
+EndGlobal

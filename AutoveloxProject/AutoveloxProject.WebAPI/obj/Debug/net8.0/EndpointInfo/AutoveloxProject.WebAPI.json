@@ -1,0 +1,379 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "AutoveloxProject.WebAPI",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Luoghi/allRegioni": {
+      "get": {
+        "tags": [
+          "Luoghi"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "401": {
+            "description": "Unauthorized – API Key was missing or invalid"
+          }
+        }
+      }
+    },
+    "/api/Luoghi/allProvince": {
+      "get": {
+        "tags": [
+          "Luoghi"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "401": {
+            "description": "Unauthorized – API Key was missing or invalid"
+          }
+        }
+      }
+    },
+    "/api/Luoghi/allComuni": {
+      "get": {
+        "tags": [
+          "Luoghi"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "401": {
+            "description": "Unauthorized – API Key was missing or invalid"
+          }
+        }
+      }
+    },
+    "/api/Luoghi/provinceByRegione": {
+      "get": {
+        "tags": [
+          "Luoghi"
+        ],
+        "parameters": [
+          {
+            "name": "regione",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "401": {
+            "description": "Unauthorized – API Key was missing or invalid"
+          }
+        }
+      }
+    },
+    "/api/Luoghi/comuniByProvincia": {
+      "get": {
+        "tags": [
+          "Luoghi"
+        ],
+        "parameters": [
+          {
+            "name": "provincia",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "401": {
+            "description": "Unauthorized – API Key was missing or invalid"
+          }
+        }
+      }
+    },
+    "/api/Luoghi/DTOByRegione": {
+      "get": {
+        "tags": [
+          "Luoghi"
+        ],
+        "parameters": [
+          {
+            "name": "regione",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "401": {
+            "description": "Unauthorized – API Key was missing or invalid"
+          }
+        }
+      }
+    },
+    "/api/Mappe": {
+      "get": {
+        "tags": [
+          "Mappe"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "401": {
+            "description": "Unauthorized – API Key was missing or invalid"
+          }
+        }
+      }
+    },
+    "/api/Mappe/filtered": {
+      "get": {
+        "tags": [
+          "Mappe"
+        ],
+        "parameters": [
+          {
+            "name": "comune",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "provincia",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "regione",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "401": {
+            "description": "Unauthorized – API Key was missing or invalid"
+          }
+        }
+      }
+    },
+    "/api/Mappe/byId": {
+      "get": {
+        "tags": [
+          "Mappe"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "401": {
+            "description": "Unauthorized – API Key was missing or invalid"
+          }
+        }
+      }
+    },
+    "/api/Mappe/deleteAutoveloxById": {
+      "delete": {
+        "tags": [
+          "Mappe"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "401": {
+            "description": "Unauthorized – API Key was missing or invalid"
+          }
+        }
+      }
+    },
+    "/api/Mappe/addAutovelox": {
+      "post": {
+        "tags": [
+          "Mappe"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MappaCreateDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MappaCreateDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MappaCreateDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "401": {
+            "description": "Unauthorized – API Key was missing or invalid"
+          }
+        }
+      }
+    },
+    "/api/Mappe/updateAutovelox": {
+      "put": {
+        "tags": [
+          "Mappe"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MappaUpdateDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MappaUpdateDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MappaUpdateDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "401": {
+            "description": "Unauthorized – API Key was missing or invalid"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "MappaCreateDTO": {
+        "type": "object",
+        "properties": {
+          "idComune": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nome": {
+            "type": "string",
+            "nullable": true
+          },
+          "annoInserimento": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "identificatoreOpenStreetMap": {
+            "type": "number",
+            "format": "double"
+          },
+          "longitudine": {
+            "type": "number",
+            "format": "double"
+          },
+          "latitudine": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "MappaUpdateDTO": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idComune": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "nome": {
+            "type": "string",
+            "nullable": true
+          },
+          "annoInserimento": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "identificatoreOpenStreetMap": {
+            "type": "number",
+            "format": "double"
+          },
+          "longitudine": {
+            "type": "number",
+            "format": "double"
+          },
+          "latitudine": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "ApiKey": {
+        "type": "apiKey",
+        "description": "API Key needed to access the endpoints",
+        "name": "X-API-KEY",
+        "in": "header"
+      }
+    }
+  },
+  "security": [
+    {
+      "ApiKey": [ ]
+    }
+  ]
+}

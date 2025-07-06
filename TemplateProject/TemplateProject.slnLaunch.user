@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "Run All",
+    "Projects": [
+      {
+        "Path": "TemplateProject\\TemplateProject.API.csproj",
+        "Action": "Start",
+        "DebugTarget": "https"
+      },
+      {
+        "Path": "TemplateProject.FrontEnd\\TemplateProject.FrontEnd.csproj",
+        "Action": "Start",
+        "DebugTarget": "https"
+      }
+    ]
+  }
+]
