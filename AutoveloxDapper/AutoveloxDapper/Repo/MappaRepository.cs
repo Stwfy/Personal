@@ -1,6 +1,7 @@
 ﻿// Data/MappaRepository.cs
 using Autovelox.Data.Models;
 using Dapper;
+using Microsoft.AspNetCore.Connections;
 using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
 
@@ -56,5 +57,25 @@ public class MappaRepository
         return results;
     }
 
-    
+    // Repositories/MappaRepository.cs
+    public async Task<bool> UpdateMappaAsync(Mappa mappa)
+    {
+        const string sql = @"
+        UPDATE Mappe
+        SET IdComune = @IdComune,
+            Nome = @Nome,
+            AnnoInserimento = @AnnoInserimento,
+            DataOraInserimento = @DataOraInserimento,
+            IdentificatoreOpenStreetMap = @IdentificatoreOpenStreetMap,
+            Longitudine = @Longitudine,
+            Latitudine = @Latitudine
+        WHERE IdMappa = @IdMappa";
+
+        using var connection = GetConnection();
+        var rowsAffected = await connection.ExecuteAsync(sql, mappa);
+
+        return rowsAffected > 0;
+    }
+
+
 }

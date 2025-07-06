@@ -81,3 +81,4 @@ C:\Lavori\Personal\AutoveloxDapper\AutoveloxDapper\bin\Debug\net8.0\runtimes\win
 C:\Lavori\Personal\AutoveloxDapper\AutoveloxDapper\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
 C:\Lavori\Personal\AutoveloxDapper\AutoveloxDapper\bin\Debug\net8.0\AutoveloxDapper.Data.dll
 C:\Lavori\Personal\AutoveloxDapper\AutoveloxDapper\bin\Debug\net8.0\AutoveloxDapper.Data.pdb
+C:\Lavori\Personal\AutoveloxDapper\AutoveloxDapper\obj\Debug\net8.0\AutoveloxDapper.sourcelink.json

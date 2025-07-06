@@ -144,6 +144,46 @@
             "description": "OK"
           }
         }
+      },
+      "put": {
+        "tags": [
+          "Mappe"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Mappa"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Mappa"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Mappa"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
       }
     },
     "/api/Mappe/filtered": {
@@ -223,6 +263,45 @@
   },
   "components": {
     "schemas": {
+      "Mappa": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idComune": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "nome": {
+            "type": "string",
+            "nullable": true
+          },
+          "annoInserimento": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "dataOraInserimento": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "identificatoreOpenStreetMap": {
+            "type": "number",
+            "format": "double"
+          },
+          "longitudine": {
+            "type": "number",
+            "format": "double"
+          },
+          "latitudine": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
       "MappaCreateDto": {
         "type": "object",
         "properties": {

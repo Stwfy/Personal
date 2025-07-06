@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Lavori\\Personal\\AutoveloxDapper\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9CF3E4F9-1DF2-449B-BD28-801C62286817}|AutoveloxDapper\\AutoveloxDapper.csproj|c:\\lavori\\personal\\autoveloxdapper\\autoveloxdapper\\controllers\\mappacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CF3E4F9-1DF2-449B-BD28-801C62286817}|AutoveloxDapper\\AutoveloxDapper.csproj|solutionrelative:autoveloxdapper\\controllers\\mappacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CF3E4F9-1DF2-449B-BD28-801C62286817}|AutoveloxDapper\\AutoveloxDapper.csproj|c:\\lavori\\personal\\autoveloxdapper\\autoveloxdapper\\repo\\mapparepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CF3E4F9-1DF2-449B-BD28-801C62286817}|AutoveloxDapper\\AutoveloxDapper.csproj|solutionrelative:autoveloxdapper\\repo\\mapparepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA58ABF6-1516-45CA-BE47-B7B9172FFC0E}|AutoveloxDapper.Data\\AutoveloxDapper.Data.csproj|c:\\lavori\\personal\\autoveloxdapper\\autoveloxdapper.data\\models\\mappa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA58ABF6-1516-45CA-BE47-B7B9172FFC0E}|AutoveloxDapper.Data\\AutoveloxDapper.Data.csproj|solutionrelative:autoveloxdapper.data\\models\\mappa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CF3E4F9-1DF2-449B-BD28-801C62286817}|AutoveloxDapper\\AutoveloxDapper.csproj|c:\\lavori\\personal\\autoveloxdapper\\autoveloxdapper\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9CF3E4F9-1DF2-449B-BD28-801C62286817}|AutoveloxDapper\\AutoveloxDapper.csproj|solutionrelative:autoveloxdapper\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CF3E4F9-1DF2-449B-BD28-801C62286817}|AutoveloxDapper\\AutoveloxDapper.csproj|c:\\lavori\\personal\\autoveloxdapper\\autoveloxdapper\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CF3E4F9-1DF2-449B-BD28-801C62286817}|AutoveloxDapper\\AutoveloxDapper.csproj|solutionrelative:autoveloxdapper\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9CF3E4F9-1DF2-449B-BD28-801C62286817}|AutoveloxDapper\\AutoveloxDapper.csproj|c:\\lavori\\personal\\autoveloxdapper\\autoveloxdapper\\repo\\luoghirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9CF3E4F9-1DF2-449B-BD28-801C62286817}|AutoveloxDapper\\AutoveloxDapper.csproj|solutionrelative:autoveloxdapper\\repo\\luoghirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,20 +31,8 @@
       "RelativeMoniker": "D:0:0:{9CF3E4F9-1DF2-449B-BD28-801C62286817}|AutoveloxDapper\\AutoveloxDapper.csproj|solutionrelative:autoveloxdapper\\controllers\\luoghicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9CF3E4F9-1DF2-449B-BD28-801C62286817}|AutoveloxDapper\\AutoveloxDapper.csproj|c:\\lavori\\personal\\autoveloxdapper\\autoveloxdapper\\repo\\mapparepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CF3E4F9-1DF2-449B-BD28-801C62286817}|AutoveloxDapper\\AutoveloxDapper.csproj|solutionrelative:autoveloxdapper\\repo\\mapparepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CF3E4F9-1DF2-449B-BD28-801C62286817}|AutoveloxDapper\\AutoveloxDapper.csproj|c:\\lavori\\personal\\autoveloxdapper\\autoveloxdapper\\controllers\\mappacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CF3E4F9-1DF2-449B-BD28-801C62286817}|AutoveloxDapper\\AutoveloxDapper.csproj|solutionrelative:autoveloxdapper\\controllers\\mappacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DA58ABF6-1516-45CA-BE47-B7B9172FFC0E}|AutoveloxDapper.Data\\AutoveloxDapper.Data.csproj|c:\\lavori\\personal\\autoveloxdapper\\autoveloxdapper.data\\models\\regione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA58ABF6-1516-45CA-BE47-B7B9172FFC0E}|AutoveloxDapper.Data\\AutoveloxDapper.Data.csproj|solutionrelative:autoveloxdapper.data\\models\\regione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CF3E4F9-1DF2-449B-BD28-801C62286817}|AutoveloxDapper\\AutoveloxDapper.csproj|c:\\lavori\\personal\\autoveloxdapper\\autoveloxdapper\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CF3E4F9-1DF2-449B-BD28-801C62286817}|AutoveloxDapper\\AutoveloxDapper.csproj|solutionrelative:autoveloxdapper\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DA58ABF6-1516-45CA-BE47-B7B9172FFC0E}|AutoveloxDapper.Data\\AutoveloxDapper.Data.csproj|c:\\lavori\\personal\\autoveloxdapper\\autoveloxdapper.data\\models\\comune.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,16 +43,8 @@
       "RelativeMoniker": "D:0:0:{9CF3E4F9-1DF2-449B-BD28-801C62286817}|AutoveloxDapper\\AutoveloxDapper.csproj|solutionrelative:autoveloxdapper\\dto\\mappadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA58ABF6-1516-45CA-BE47-B7B9172FFC0E}|AutoveloxDapper.Data\\AutoveloxDapper.Data.csproj|c:\\lavori\\personal\\autoveloxdapper\\autoveloxdapper.data\\models\\mappa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA58ABF6-1516-45CA-BE47-B7B9172FFC0E}|AutoveloxDapper.Data\\AutoveloxDapper.Data.csproj|solutionrelative:autoveloxdapper.data\\models\\mappa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9CF3E4F9-1DF2-449B-BD28-801C62286817}|AutoveloxDapper\\AutoveloxDapper.csproj|c:\\lavori\\personal\\autoveloxdapper\\autoveloxdapper\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9CF3E4F9-1DF2-449B-BD28-801C62286817}|AutoveloxDapper\\AutoveloxDapper.csproj|solutionrelative:autoveloxdapper\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CF3E4F9-1DF2-449B-BD28-801C62286817}|AutoveloxDapper\\AutoveloxDapper.csproj|c:\\lavori\\personal\\autoveloxdapper\\autoveloxdapper\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9CF3E4F9-1DF2-449B-BD28-801C62286817}|AutoveloxDapper\\AutoveloxDapper.csproj|solutionrelative:autoveloxdapper\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DA58ABF6-1516-45CA-BE47-B7B9172FFC0E}|AutoveloxDapper.Data\\AutoveloxDapper.Data.csproj|c:\\lavori\\personal\\autoveloxdapper\\autoveloxdapper.data\\models\\provincia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -106,20 +106,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "LuoghiRepository.cs",
               "DocumentMoniker": "C:\\Lavori\\Personal\\AutoveloxDapper\\AutoveloxDapper\\Repo\\LuoghiRepository.cs",
               "RelativeDocumentMoniker": "AutoveloxDapper\\Repo\\LuoghiRepository.cs",
               "ToolTip": "C:\\Lavori\\Personal\\AutoveloxDapper\\AutoveloxDapper\\Repo\\LuoghiRepository.cs",
               "RelativeToolTip": "AutoveloxDapper\\Repo\\LuoghiRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-04T13:32:17.283Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "LuoghiController.cs",
               "DocumentMoniker": "C:\\Lavori\\Personal\\AutoveloxDapper\\AutoveloxDapper\\Controllers\\LuoghiController.cs",
               "RelativeDocumentMoniker": "AutoveloxDapper\\Controllers\\LuoghiController.cs",
@@ -131,31 +131,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "MappaController.cs",
               "DocumentMoniker": "C:\\Lavori\\Personal\\AutoveloxDapper\\AutoveloxDapper\\Controllers\\MappaController.cs",
               "RelativeDocumentMoniker": "AutoveloxDapper\\Controllers\\MappaController.cs",
               "ToolTip": "C:\\Lavori\\Personal\\AutoveloxDapper\\AutoveloxDapper\\Controllers\\MappaController.cs",
               "RelativeToolTip": "AutoveloxDapper\\Controllers\\MappaController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwDwAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowB0AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T10:26:09.174Z"
+              "WhenOpened": "2025-06-30T10:26:09.174Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MappaRepository.cs",
               "DocumentMoniker": "C:\\Lavori\\Personal\\AutoveloxDapper\\AutoveloxDapper\\Repo\\MappaRepository.cs",
               "RelativeDocumentMoniker": "AutoveloxDapper\\Repo\\MappaRepository.cs",
               "ToolTip": "C:\\Lavori\\Personal\\AutoveloxDapper\\AutoveloxDapper\\Repo\\MappaRepository.cs",
               "RelativeToolTip": "AutoveloxDapper\\Repo\\MappaRepository.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwDEAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAIwEAAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T10:24:26.815Z"
+              "WhenOpened": "2025-06-30T10:24:26.815Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "MappaDto.cs",
               "DocumentMoniker": "C:\\Lavori\\Personal\\AutoveloxDapper\\AutoveloxDapper\\Dto\\MappaDto.cs",
               "RelativeDocumentMoniker": "AutoveloxDapper\\Dto\\MappaDto.cs",
@@ -167,31 +169,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Lavori\\Personal\\AutoveloxDapper\\AutoveloxDapper\\appsettings.json",
               "RelativeDocumentMoniker": "AutoveloxDapper\\appsettings.json",
               "ToolTip": "C:\\Lavori\\Personal\\AutoveloxDapper\\AutoveloxDapper\\appsettings.json",
               "RelativeToolTip": "AutoveloxDapper\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-30T10:30:11.042Z"
+              "WhenOpened": "2025-06-30T10:30:11.042Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Lavori\\Personal\\AutoveloxDapper\\AutoveloxDapper\\Program.cs",
               "RelativeDocumentMoniker": "AutoveloxDapper\\Program.cs",
               "ToolTip": "C:\\Lavori\\Personal\\AutoveloxDapper\\AutoveloxDapper\\Program.cs",
               "RelativeToolTip": "AutoveloxDapper\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-30T10:29:42.482Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Lavori\\Personal\\AutoveloxDapper\\AutoveloxDapper\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "AutoveloxDapper\\WeatherForecast.cs",
@@ -215,7 +218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Regione.cs",
               "DocumentMoniker": "C:\\Lavori\\Personal\\AutoveloxDapper\\AutoveloxDapper.Data\\Models\\Regione.cs",
               "RelativeDocumentMoniker": "AutoveloxDapper.Data\\Models\\Regione.cs",
@@ -227,19 +230,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "Mappa.cs",
               "DocumentMoniker": "C:\\Lavori\\Personal\\AutoveloxDapper\\AutoveloxDapper.Data\\Models\\Mappa.cs",
               "RelativeDocumentMoniker": "AutoveloxDapper.Data\\Models\\Mappa.cs",
               "ToolTip": "C:\\Lavori\\Personal\\AutoveloxDapper\\AutoveloxDapper.Data\\Models\\Mappa.cs",
               "RelativeToolTip": "AutoveloxDapper.Data\\Models\\Mappa.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T10:13:20.556Z"
+              "WhenOpened": "2025-06-30T10:13:20.556Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Comune.cs",
               "DocumentMoniker": "C:\\Lavori\\Personal\\AutoveloxDapper\\AutoveloxDapper.Data\\Models\\Comune.cs",
               "RelativeDocumentMoniker": "AutoveloxDapper.Data\\Models\\Comune.cs",

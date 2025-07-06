@@ -64,4 +64,21 @@ public class MappeController : ControllerBase
         return Ok(result);
     }
 
+    [HttpPut("{id}")]
+    public async Task<IActionResult> UpdateAutovelox(int id, [FromBody] Mappa mappa)
+    {
+        if (id != mappa.Id)
+            return BadRequest("ID mismatch");
+
+        try
+        {
+            var updated = await _repo.UpdateMappaAsync(mappa);
+            return updated ? Ok("Autovelox aggiornato") : NotFound("Not found");
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, ex.Message);
+        }
+    }
+
 }

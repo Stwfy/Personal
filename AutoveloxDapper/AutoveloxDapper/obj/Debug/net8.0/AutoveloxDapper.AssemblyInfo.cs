@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AutoveloxDapper")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc8b3044141863daf375f63716c90e90cc085cf6")]
 [assembly: System.Reflection.AssemblyProductAttribute("AutoveloxDapper")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AutoveloxDapper")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
